@@ -1,21 +1,78 @@
-.container{
-  background-image: url('IMG_2799.jpeg');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-position:center;
-  width:100vw;
-  height:100vh;
-  margin:0;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.profilecard{
-  background-color:pink;
-  width:100px;
-  height:150px
-  border-radius:30px;
-  
+body, html {
+  height: 100%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('IMG_2799.jpeg'); /* or your bg */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  backdrop-filter: blur(6px);
+}
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid white;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.role {
+  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.socials img {
+  width: 28px;
+  height: 28px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  color: #333;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
