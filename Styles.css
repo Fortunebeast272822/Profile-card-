@@ -1,1 +1,6 @@
-
+.container{
+  background-image:url('image2799.jpeg');
+  background-sizs:cover;
+  background-repeat: no-repeat;
+  background-position:center;
+}
