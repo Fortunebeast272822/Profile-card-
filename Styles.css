@@ -6,11 +6,12 @@
   width:100vw;
   height:100vh;
   margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
   
 }
 
 .profilecard{
-  display:flex;
-  justify-content:center;
-  align-item:center;
+  
 }
