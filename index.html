@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile Card</title>
   <link rel="stylesheet" href="styles.css">
+  <title>Profile Card</title>
 </head>
 <body>
 
-  <div class="container">
+  <div class="profile-wrapper">
     <div class="profile-card">
-      <img src="profile.jpg" alt="Profile" class="profile-img">
+      <div class="profile-top"></div>
 
-      <h2 class="name">Fortune Igbinedion</h2>
-      <p class="role">UI/UX Designer</p>
+      <div class="profile-content">
+        <div class="profile-img">
+          <img src="your-image.jpg" alt="Profile">
+        </div>
 
-      <div class="socials">
-        <a href="#"><img src="insta.png" alt="Instagram"></a>
-        <a href="#"><img src="whatsapp.png" alt="WhatsApp"></a>
-        <a href="#"><img src="twitter.png" alt="Twitter"></a>
+        <h2 class="name">Your Name</h2>
+
+        <div class="tags">
+          <span class="tag writer">Writer</span>
+          <span class="tag golden">Golden User</span>
+        </div>
+
+        <p class="description">
+          Your description goes here. Add any short bio text.
+        </p>
+
+        <div class="actions">
+          <button class="follow-btn">+ Follow</button>
+          <div class="icon-btn"><i>📩</i></div>
+          <div class="icon-btn"><i>🔔</i></div>
+        </div>
       </div>
-
-      <button class="btn">Follow</button>
     </div>
   </div>
 
